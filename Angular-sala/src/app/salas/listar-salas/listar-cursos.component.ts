@@ -59,13 +59,13 @@ export class ListarCursosComponent implements OnInit {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "Si, borra el curso!"
+      confirmButtonText: "Si, borra la sala!"
     }).then((result) => {
       if (result.isConfirmed) {
         this.cursoService.borrarCurso(curso.id).subscribe(() => { // Llama al servicio para eliminar el curso
           Swal.fire({
             title: "Eliminado!",
-            text: "El curso ha sido eliminado.",
+            text: "La sala ha sido eliminado.",
             icon: "success"
           });
           this.cursos = this.cursos.filter((c) => c !== curso); // Actualiza la lista de cursos en la vista
