@@ -29,7 +29,7 @@ export class ListarCursosComponent implements OnInit {
    * Metodo que se ejecuta al iniciar el componente
    */
   ngOnInit(): void {
-    // this.cursos[0] = {id: 1, curso: 'Angular', programa: 'Ingenieria de sistemas'};
+    //this.cursos[2] = {Tipo aula: 'SALA DE INFORMATICA'};
     // this.cursos[1] = {id: 2, curso: 'Java', programa: 'Ingenieria de sistemas'};
     // this.cursos[2] = {id: 3, curso: 'Python', programa: 'Ingenieria de sistemas'};
     // this.cursos[3] = {id: 4, curso: 'C#', programa: 'Ingenieria de sistemas'};
