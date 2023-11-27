@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {ListarCursosComponent} from "./listar-cursos/listar-cursos.component";
-import {CrearCursoComponent} from "./crear-curso/crear-curso.component";
-import {DetalleCursoComponent} from "./detalle-curso/detalle-curso.component";
-import {EditarCursoComponent} from "./editar-curso/editar-curso.component";
+import {ListarCursosComponent} from "./listar-salas/listar-cursos.component";
+import {CrearCursoComponent} from "./crear-sala/crear-curso.component";
+import {DetalleCursoComponent} from "./detalle-sala/detalle-curso.component";
+import {EditarCursoComponent} from "./editar-sala/editar-curso.component";
 
 const routes: Routes = [
   {
