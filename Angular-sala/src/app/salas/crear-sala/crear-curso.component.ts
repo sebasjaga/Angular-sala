@@ -42,8 +42,8 @@ export class CrearCursoComponent implements OnInit {
       (curso: Curso) => {
         // console.log(curso);
         Swal.fire(
-          'Curso creado',
-          `El curso ${curso.curso} ha sido creado con exito`,
+          'Sala creada',
+          `La sala ${curso.curso} ha sido creado con exito`,
           'success'
         );
         this.crearCursoForm.reset();  //Resetea el formulario
