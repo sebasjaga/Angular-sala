@@ -1,7 +1,7 @@
 <div class="card mx-auto" style="max-width: 500px;">
   <div class="card-body">
-    <h5 class="card-title">Editar curso {{editarCursoForm.get('curso')?.value}}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Datos del curso</h6>
+    <h5 class="card-title">Editar {{editarCursoForm.get('curso')?.value}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Datos de la sala</h6>
 
 
     <form [formGroup]="editarCursoForm" (ngSubmit)="editarCurso(editarCursoForm.value)">
@@ -23,17 +23,17 @@
           <input id="curso"
                  type="text"
                  name="curso"
-                 placeholder="Escriba el nombre del curso aqui"
+                 placeholder="Escriba el nombre de la sala aqui"
                  formControlName="curso"
                  class="form-control"
           >
 
           <!--    Campo programa del curso      -->
-          <label for="programa">Programa</label>
+          <label for="programa">Bloque</label>
           <input id="programa"
                  type="text"
                  name="programa"
-                 placeholder="Ingrese el programa al que pertenece"
+                 placeholder="Ingrese el bloque al que pertenece"
                  formControlName="programa"
                  class="form-control"
           >
@@ -42,7 +42,7 @@
 
           <div class="row justify-content-center mt-3">
             <div class="col-6">
-              <button type="submit" class="btn btn-primary btn-block">Editar curso</button>
+              <button type="submit" class="btn btn-primary btn-block">Editar sala</button>
             </div>
             <div class="col-6">
               <button type="button" class="btn btn-danger btn-block" (click)="cancelarEditarCurso()">Cancelar</button>

@@ -50,8 +50,8 @@ export class EditarCursoComponent implements OnInit {
       (curso: Curso) => {
         // console.log(curso);
         Swal.fire( // Le decimos al usuario que el curso ha sido editado
-          'Curso editado',
-          `El curso ${curso.curso} ha sido actualizado con exito`,
+          'Sala editada',
+          `La sala ${curso.curso} ha sido actualizado con exito`,
           'success'
         );
         this.router.navigate(['/listar']); //Redirecciona a la ruta /listar
